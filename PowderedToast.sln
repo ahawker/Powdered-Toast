@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowderedToast.Core", "PowderedToast.Core\PowderedToast.Core.csproj", "{3EC2B75C-87DD-465E-B057-6E9994D2080B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowderedToast.Core", "src\PowderedToast.Core\PowderedToast.Core.csproj", "{3EC2B75C-87DD-465E-B057-6E9994D2080B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
