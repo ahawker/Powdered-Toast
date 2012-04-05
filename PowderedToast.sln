@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowderedToast.Core", "src\PowderedToast.Core\PowderedToast.Core.csproj", "{3EC2B75C-87DD-465E-B057-6E9994D2080B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowderedToast.Core.Tests", "src\PowderedToast.Core.Tests\PowderedToast.Core.Tests.csproj", "{E467945A-A613-4C70-9B43-68555C18B410}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{3EC2B75C-87DD-465E-B057-6E9994D2080B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EC2B75C-87DD-465E-B057-6E9994D2080B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EC2B75C-87DD-465E-B057-6E9994D2080B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E467945A-A613-4C70-9B43-68555C18B410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E467945A-A613-4C70-9B43-68555C18B410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E467945A-A613-4C70-9B43-68555C18B410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E467945A-A613-4C70-9B43-68555C18B410}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
