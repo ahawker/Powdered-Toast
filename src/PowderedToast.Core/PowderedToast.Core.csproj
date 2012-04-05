@@ -40,7 +40,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api\PowderedToastApi.cs" />
+    <Compile Include="Common\Utilities.cs" />
+    <Compile Include="Logging\ILog.cs" />
+    <Compile Include="Common\IDeepCopy.cs" />
+    <Compile Include="Notifications\INotification.cs" />
+    <Compile Include="Notifications\INotificationFactory.cs" />
+    <Compile Include="Notifications\INotificationQueue.cs" />
+    <Compile Include="Notifications\NotificationQueue.cs" />
+    <Compile Include="Notifications\Text\TextNotificationDefaults.cs" />
+    <Compile Include="Notifications\Text\TextNotificationFactoryExtensions.cs" />
+    <Compile Include="Notifications\Text\TextNotifierExtensions.cs" />
+    <Compile Include="Notifications\Toast\IToastNotificationIcon.cs" />
+    <Compile Include="Notifications\INotifier.cs" />
+    <Compile Include="Notifications\Text\ITextNotification.cs" />
+    <Compile Include="Notifications\Text\TextNotification.cs" />
+    <Compile Include="Notifications\Toast\IToastNotification.cs" />
+    <Compile Include="Notifications\Notification.cs" />
+    <Compile Include="Notifications\NotificationDefaults.cs" />
+    <Compile Include="Notifications\NotificationFactory.cs" />
+    <Compile Include="Notifications\Toast\NotificationIcon.cs" />
+    <Compile Include="Notifications\Toast\NotificationStyle.cs" />
+    <Compile Include="Notifications\Notifier.cs" />
+    <Compile Include="Notifications\Toast\ToastNotification.cs" />
+    <Compile Include="Notifications\Toast\ToastNotificationDefaults.cs" />
+    <Compile Include="Notifications\Toast\ToastNotificationFactoryExtensions.cs" />
+    <Compile Include="Notifications\Toast\ToastNotifierExtensions.cs" />
+    <Compile Include="Notifications\INotificationProvider.cs" />
+    <Compile Include="Notifications\Toast\IToastNotificationStyle.cs" />
+    <Compile Include="Subscription\INotificationSubscriber.cs" />
+    <Compile Include="Notifications\NotificationPriority.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subscription\ISubscriptionInfo.cs" />
+    <Compile Include="Subscription\SubscriptionController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Gui\" />
+    <Folder Include="Providers\" />
+    <Folder Include="Threading\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
